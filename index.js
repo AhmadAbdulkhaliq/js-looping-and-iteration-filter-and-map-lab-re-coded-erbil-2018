@@ -24,10 +24,9 @@ function exactMatch (drivers, matcher) {
   });
 }
 
-function exactMatchToList (drivers, matcher) {
-  return exactMatch(drivers, matcher)
+function exactMatchToList (array, matcher) {
+  return exactMatch(array, matcher)
     .map(function (driver) {
       return driver.name;
     });
 }
-© 2018 GitHub, Inc.
