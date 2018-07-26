@@ -6,3 +6,4 @@ function driversWithRevenueOver(array,revenue){
 }
 
 function driverNamesWithRevenueOver(array , revenue)
+driversWithRevenueOver(array,revenue)
